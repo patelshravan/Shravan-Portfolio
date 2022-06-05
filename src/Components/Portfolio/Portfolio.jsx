@@ -3,7 +3,7 @@ import "./Portfolio.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Schoolinks from "../../img/schoolinks.png";
 import TaxiCab from "../../img/TaxiCab.png";
-import FoodOrder from "../../img/foodOrder.png";
+import PWT from "../../img/PWT.PNG";
 import Weather from "../../img/weather.jpeg";
 import Flappy from "../../img/flappy.jpeg";
 import F2h from "../../img/f2h.png";
@@ -27,27 +27,27 @@ const Portfolio = () => {
         className="portfolio-slider"
       >
         <SwiperSlide>
-          <img src={Schoolinks} alt="Schoolinks Applications" />
+          <img src={Schoolinks} alt="" />
           <span id="span1">Schoolinks Applications</span>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={TaxiCab} alt="Taxi Cab App" />
+          <img src={PWT} alt="" />
+          <span id="span3">PlayWithText</span>
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={TaxiCab} alt="" />
           <span id="span2">Taxi Cab App</span>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={FoodOrder} alt="Food Order App" />
-          <span id="span3">Food Order App</span>
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={Weather} alt="Weather Mobile App" />
+          <img src={Weather} alt="" />
           <span id="span4">Weather Mobile App</span>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={Flappy} alt="Instagram Clone" />
+          <img src={Flappy} alt="" />
           <span id="span5">Flappy Bird Clone</span>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={F2h} alt="Farm2Home" />
+          <img src={F2h} alt="" />
           <span id="span6">Farm2Home</span>
           <br />
           <span id="span7">(Development in progress !)</span>
