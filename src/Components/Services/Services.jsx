@@ -4,7 +4,7 @@ import HeartEmoji from "../../img/heartemoji.png";
 import Glasses from "../../img/glasses.png";
 import Humble from "../../img/humble.png";
 import Card from "../Card/Card";
-import Resume from "./Shravan's Resume.pdf";
+import Resume from "./Shravan_Patel_Resume.pdf";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
 
