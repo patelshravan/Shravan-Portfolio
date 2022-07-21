@@ -20,15 +20,15 @@ const Services = () => {
         <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
         <span>Skills</span>
         <span>
-          I have 1-2 years of JavaScript, ReactJS, CSS, and HTML experience.
+          I have fresher level of JavaScript, ReactJS, CSS, and HTML experience.
           <br />
           I've created various projects using these languages. I'm also familiar
           with
           <br />
-          React Native. In addition, I've worked with backend languages such as
-          Python
+          React Native and MongoDB. In addition, I've worked with backend languages such as
+          Node JS, 
           <br />
-          and Java.
+          Express JS. 
         </span>
         <a href={Resume} download>
           <button className="button s-button">Download Resume</button>
@@ -46,7 +46,7 @@ const Services = () => {
           <Card
             emoji={HeartEmoji}
             heading={"Database"}
-            detail={"MySQL, MongoDB, PostgreSQL"}
+            detail={"MySQL, MongoDB"}
           />
         </motion.div>
 
@@ -59,7 +59,7 @@ const Services = () => {
           <Card
             emoji={Glasses}
             heading={"Developer"}
-            detail={"HTML, CSS, JavaScript, ReactJS, React Native"}
+            detail={"React JS, HTML, CSS, JavaScript, React Native"}
           />
         </motion.div>
 
@@ -69,7 +69,7 @@ const Services = () => {
           transition={transition}
           style={{ top: "19rem", left: "12rem" }}
         >
-          <Card emoji={Humble} heading={"Backend"} detail={"Python, Java"} />
+          <Card emoji={Humble} heading={"Backend"} detail={"Node JS, Express JS"} />
         </motion.div>
         <div
           className="blur s-blur2"

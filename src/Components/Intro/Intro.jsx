@@ -26,10 +26,11 @@ const Intro = () => {
           <span style={{ color: darkMode ? "white" : "" }}>Hy! I Am</span>
           <span>Shravan Patel</span>
           <span>
-            Frontend Developer with a background in web design and programming.
-            Capable of delivering high-quality results. For three to four
-            months, I interned at EDevelopers World. There, I worked on a
-            project called "Schoolinks Applications."
+            Self taught front-end developer with fresher level web design and
+            programming experience. I completed a number of minor projects.
+            Capable of delivering high-quality results. I interned at EDevelopers
+            World. There, I worked on a project called "Schoolinks
+            Applications."
           </span>
         </div>
         <Link spy={true} to="Contact" smooth={true}>
@@ -74,7 +75,7 @@ const Intro = () => {
           style={{ top: "18rem", left: "0rem" }}
           className="floating-div"
         >
-          <FloatingDiv image={thumbup} txt1="Best Design" txt2="Award" />
+          <FloatingDiv image={thumbup} txt1="Best" txt2="Design" />
         </motion.div>
         {/* blur divs */}
         <div
