@@ -3,9 +3,39 @@
   display: flex;
   height: 90vh;
   margin-top: 4rem;
+
+  /* scroll */
+  align-items: center;
+}
+/* left side */
+.awesome {
+  display: flex;
+  flex-direction: column;
+  position: relative;
 }
 
-/* Right Side */
+.awesome > :nth-child(1) {
+  color: var(--black);
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.awesome > :nth-child(2) {
+  color: var(--orange);
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.awesome > :nth-child(3) {
+  color: var(--gray);
+  font-size: 14px;
+  margin-top: 1rem;
+}
+.s-button {
+  width: 8rem;
+  height: 2rem;
+  margin-top: 4rem;
+}
+
+/* right side */
 .w-right {
   position: relative;
 }
@@ -19,37 +49,32 @@
   box-shadow: var(--smboxShadow);
   top: 2rem;
   background: white;
+  /* darkMode */
+  z-index: 2;
 }
-
 .w-mainCircle > * {
   position: absolute;
 }
-
 .w-mainCircle > :nth-child(1) {
   top: -3rem;
   left: 6rem;
 }
-
 .w-mainCircle > :nth-child(2) {
   left: -3rem;
   top: 5rem;
 }
-
 .w-mainCircle > :nth-child(3) {
-  top: 5rem;
   left: 6rem;
+  top: 5rem;
 }
-
 .w-mainCircle > :nth-child(4) {
-  top: 5rem;
   left: 15rem;
+  top: 5rem;
 }
-
 .w-mainCircle > :nth-child(5) {
-  top: 13rem;
   left: 6rem;
+  top: 13rem;
 }
-
 .w-secCircle {
   width: 6rem;
   height: 6rem;
@@ -73,32 +98,32 @@
   height: 13rem;
   width: 13rem;
   border-radius: 100%;
-  z-index: -1;
+  /* darkMode */
+  z-index: 1;
 }
-
 .blueCircle {
   background: #1949b8;
   left: 18rem;
   top: 0rem;
 }
-
 .yellowCircle {
   background: #f5c32c;
   left: 18rem;
   top: 8rem;
 }
 
-@media screen and (max-width: "480px") {
+@media screen and (max-width: 480px) {
   .works {
     flex-direction: column;
     height: 55rem;
     padding: 0;
     gap: 5rem;
   }
+
   .w-right {
     display: flex;
     align-items: flex-start;
-    justify-content: flex-start;
+    justify-content: start;
     transform: scale(0.7);
   }
   .w-mainCircle {

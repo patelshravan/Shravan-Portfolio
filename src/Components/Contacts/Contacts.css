@@ -3,6 +3,8 @@
   display: flex;
   height: 80vh;
   margin-top: 4rem;
+  /* scroll */
+  padding-top: 3rem;
 }
 
 .c-right {
@@ -22,7 +24,7 @@
 .c-right .user {
   width: 20rem;
   height: 2rem;
-  padding: 0.3rem;
+  padding: 0.3em;
   outline: none;
   border: 2px solid var(--orange);
   border-radius: 8px;
@@ -36,4 +38,16 @@ textarea {
 .c-blur1 {
   top: 1rem;
   left: 8rem;
+}
+
+@media screen and (max-width: 480px) {
+  .contact-form {
+    padding: 0;
+    flex-direction: column;
+    gap: 5rem;
+    height: 40rem;
+  }
+  .c-right .user {
+    width: 16rem;
+  }
 }
