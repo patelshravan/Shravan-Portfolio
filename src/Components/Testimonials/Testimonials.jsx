@@ -50,7 +50,7 @@ const Testimonials = () => {
                 <span>{client.name}</span>
                 <span>{client.designation}</span>
                 <br />
-                <span>{client.review}</span>
+                <span id="review">{client.review}</span>
               </div>
             </SwiperSlide>
           );
